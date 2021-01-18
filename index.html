@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="promises_chain.js"></script>
+</head>
+<body>
+
+<script>
+//let
+
+
+//Const
+    // const car = "Honda";
+    // car = "bmd";
+    //
+    // const  car = ['honda','tyota'];
+    //
+    // car.push('United');
+    // console.log(car);
+
+
+    //     const car = {
+    //
+    //         'color': 'red',
+    //         'price': '2000000'
+    //     }
+    //
+    //     car.color= 'blavk';
+    //     car.color= 'blavk';
+    //     console.log(car);
+
+// Templates Literals
+
+       // let name = "Kamran";
+       //
+       // let message = `Hello Dear ${name}`;
+       //
+       // console.log(message)
+
+        // let n1 = 12;
+        // let n2 = 13;
+        // let results = `Total is ${n1 + n2}`;
+        // console.log(results);
+
+
+        // let result = function () {
+        //
+        //     return "kamran";
+        //
+        // }
+        // let link = `<a href="">${result()}</a>`;
+        // console.log(link);
+// Spread oparaters
+
+            // var array1 = ['a','b','c'];
+            // var array2 = ['q','w','e'];
+            //
+            // var array3 = ['p','o','i',...array1, ...array2];
+            //
+            //
+            // console.log(...array1);
+            // console.log(...array3);
+
+            // var sendData = function (username, password,email) {
+            //
+            //     console.log("DataSend",username,password,email);
+            // }
+            //
+            // var someData = ['a','b','c'];
+            //
+            // sendData(...someData);
+
+           //  var car1 = [
+           //      {brand: 'honda'},
+           //      {price : '20k'}
+           //  ];
+           //
+           //  var car2 = [
+           //
+           //      {brand: 'carolla'},
+           //      {price : '25k'}
+           //  ]
+           //
+           // // car1.push(car2);console.log(car1);
+           //
+           //  car1.push(...car2);
+           // // console.log(car1);
+           //
+           //  console.log(...car1);
+//Function Parameters
+
+            // function cars(car1='Default1', car2='Default2') {
+            //
+            //     console.log(car1, car2);
+            // }
+            // cars();
+//Arrow Function
+
+            // function car (car1, car2){
+            //
+            //     return car1 + car2;
+            // }
+
+            // var car = (car1 , car2) => car1 +car2
+            //
+            // console.log(car(10,20));
+
+//shorthand property
+
+            // var  car = {
+            //     name: 'kamran',
+            //     runs: function () {
+            //         console.log("here i am ");
+            //
+            //     }
+            // }
+            // car.runs();
+
+            // var car ={};
+            //     car.name = "bilal";
+            //     car.runs = function () {
+            //         console.log("no rush");
+            //     }
+            //     car.runs();
+
+
+            // var name = "bilal";
+            // var runs = function () {
+            //        console.log("no rush");
+            // }
+            //  var car ={name, runs};
+            //  car.runs();
+
+            // var name = "kamran";
+            // var lastname = "arshid";
+            //
+            // var car = { lastname,name,
+            //             run(){console.log(`${name} ${lastname} Running`);},
+            //             walk(){console.log(`${name} ${lastname}  Walk`);}
+            // };
+            // car.run();
+            // car.walk();
+//This keyword
+
+            /*var person = {
+                    lastname: "kamran",
+                    name: ['a0','a1','a2'],
+                    runCaracter(){
+                            this.name.forEach(names =>{
+                                var string = this.lastname + " is "+ names;
+                                console.log(string);
+                            })
+                    },
+
+            };
+            person.runCaracter();*/
+
+//destructuring
+
+        // var car = ['BMW', 'Marcedies', 'Ford'];
+        //console.log(car);
+
+        //var [car1, , car3] = ['BMW', 'Marcedies', 'Ford'];
+        //console.log(car1, car3);
+
+        // var person = {
+        //     name:"Kamran Arshid",
+        //     BIO:"Software eng."
+        // };
+
+        //let person = {
+        //      name:"Kamran Arshid",
+        //     BIO:"Software eng.",
+        //     ADD:"bla bla "
+        // };
+        //
+        // //console.log(name + BIO);
+        //
+        // let dataGet = ({name, BIO, ADD}) => {
+        //     return `${name} ${BIO} ${ADD}`;
+        // }
+        // console.log(dataGet(person));
+
+
+//classes
+
+    // class Person {
+    //
+    //     constructor (name, title){
+    //         this.name = name;
+    //         this.title = title;
+    //     }
+    //     displayDAta(){
+    //         console.log(`${this.name} is a gerat ${this.title}`);
+    //     }
+    // }
+
+    //let objPerson = new Person("kamran arshid", "Student");
+
+    //objPerson.displayDAta();
+
+//Inharitance
+
+        // class Son extends Person{
+        //     constructor(){
+        //         super("Arshid Kamran","again student");
+        //     }
+        // }
+        // let objSOn = new Son();
+        // objSOn.displayDAta();
+
+</script>
+
+</body>
+</html>
